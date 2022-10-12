@@ -26,11 +26,11 @@ body {
 /*主内容 CSS 开始*/
 
 .box0 {/*特殊 box； 开口与 boxb 等效*/
-    margin: 40px 15% 40px 0%;
+    margin: 80px 0% 40px 15%;
     padding: 20px;
 	border-top-style:solid;
 	border-bottom-style:solid;
-	border-right-style:solid;
+	border-left-style:solid;
 }
 
 .boxa {/*开口朝右*/
@@ -56,26 +56,14 @@ body {
 
 /*页脚 CSS 开始*/
 
-#footer {
-    margin-top: 40px;
+.footer {
+    margin-top: 100px;
+    margin-bottom: 80px;
+    text-align: center;
 }
 
-/*github*/
-#github {
-    float: left;
-    margin-left: 30%;
-}
-
-/*联系方式*/
-#mail {
-    float: left;
-    margin-left: 20px;
-}
-
-/*CC*/
-#cc {
-    float: left;
-    margin-left: 20px;
+.footer #github {
+    margin-right: 30px;
 }
 
 /*页脚 CSS 结束*/
@@ -105,20 +93,6 @@ color:rgb(0, 0, 0)
 /*响应式布局开始*/
 
 @media screen and (max-width: 750px) {
-    #github {
-        float: none;
-        text-align: center;
-        margin-bottom: 10px;
-        margin-left: 0px;
-    }
-    #mail {
-        float: none;
-        text-align: center;
-    }
-    #cc {
-        float: none;
-        text-align: center;
-    }
     .toplink {
         float: none;
         text-align: center;
