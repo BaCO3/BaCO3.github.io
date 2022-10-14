@@ -49,8 +49,8 @@ body {
 	border-right-style:solid;
 }
 
-.boxbp {/*boxb 的文字右对齐*/
-    text-align: right;
+.boxbp {/*boxb 的文字左对齐*/
+    text-align: left;
 }
 /*主内容 CSS 结束*/
 
