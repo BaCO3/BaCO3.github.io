@@ -41,6 +41,10 @@ a {
 }
 
 /*主内容*/
+.title {
+    text-align: center;
+}
+
 .content {
     margin-top: 80px;
     margin-left: 20%;
