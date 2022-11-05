@@ -47,11 +47,9 @@ body {
     text-align: center;
 }
 
-.footer #icon_github {
-    width: 8%;
-    margin-left: 47.5%;
-    margin-right: 47.5%;
-    max-width: 40px;
+.icon {
+    margin: 0 10px 0 10px;
+    width: 35px;
 }
 
 /*页脚 CSS 结束*/
@@ -100,6 +98,9 @@ h1,h2,h3,h4,h5,h6 {
         margin-left: 0;
     }
 
+    .icon {
+        margin: 0 5px 0 5px;
+    }
 }
 
 /* 给 box 赋予动画效果_已弃用
