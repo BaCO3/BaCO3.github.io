@@ -103,14 +103,17 @@ h1,h2,h3,h4,h5,h6 {
     }
 }
 
+/* 动画开始 */
+
 .box {
     position: relative;
     animation-name: animation;
     animation-duration: 0.6s;
     animation-iteration-count: 1;
+    animation-direction: alternate;
 }
 
   @keyframes animation {
-    from  { left:7%}
+    from  { left: 200px;}
     to    { left:0}
 }
