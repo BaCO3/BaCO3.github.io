@@ -103,7 +103,6 @@ h1,h2,h3,h4,h5,h6 {
     }
 }
 
-/* 给 box 赋予动画效果_已弃用
 .box {
     position: relative;
     animation-name: animation;
@@ -111,9 +110,7 @@ h1,h2,h3,h4,h5,h6 {
     animation-iteration-count: 1;
 }
 
-动画效果属性
   @keyframes animation {
     from  { left:7%}
     to    { left:0}
 }
-*/
