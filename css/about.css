@@ -46,7 +46,8 @@ a {
   margin-left: 20%;
   margin-right: 20%;
   margin-bottom: 70px;
-  width: auto;
+  line-height: 1.7;
+
 }
 
 .content img {
