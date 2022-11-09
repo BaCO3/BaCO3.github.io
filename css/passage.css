@@ -13,7 +13,8 @@ body {
 }
 
 #toolman {
-    overflow: hidden;/*用 div 工具人清除浮动*/
+    overflow: hidden;
+    /*用 div 工具人清除浮动*/
     margin-top: 3px;
     margin-bottom: 80px;
 }
@@ -28,16 +29,16 @@ body {
 
 /*链接设为黑色*/
 a {
-    color:rgb(0, 0, 0)
-    }
-    
-/* content 的链接鼠标变化*/
-.content a:hover { 
-    color: rgb(94, 94, 94)
+    color: rgb(0, 0, 0);
 }
-   
+
+/* content 的链接鼠标变化*/
+.content a:hover {
+    color: rgb(94, 94, 94);
+}
+
 .content a:active {
-    color: #a8a8a8
+    color: #a8a8a8;
 }
 
 /*主内容*/
@@ -59,8 +60,7 @@ a {
     margin-bottom: 30px;
     margin-left: 10%;
     margin-right: 10%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
-    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .q {
@@ -70,7 +70,12 @@ a {
     padding: 10px;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: normal;
 }
 
@@ -80,11 +85,13 @@ h1,h2,h3,h4,h5,h6 {
         text-align: center;
         margin-right: 0;
     }
+
     .toptitle {
         float: none;
         text-align: center;
         margin-left: 0;
     }
+
     .content {
         margin-left: 9%;
         margin-right: 9%;
