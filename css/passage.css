@@ -1,73 +1,73 @@
 @charset "UTF-8";
 
 body {
-    font-family: Georgia;
-    margin: 0;
+  font-family: Georgia;
+  margin: 0;
 }
 
 /*顶栏 CSS 开始*/
 
 .toptitle {
-    margin-left: 20px;
-    float: left;
+  margin-left: 20px;
+  float: left;
 }
 
 #toolman {
-    overflow: hidden;
-    /*用 div 工具人清除浮动*/
-    margin-top: 3px;
-    margin-bottom: 80px;
+  overflow: hidden;
+  /*用 div 工具人清除浮动*/
+  margin-top: 3px;
+  margin-bottom: 80px;
 }
 
 .toplink {
-    margin-top: 25px;
-    margin-right: 30px;
-    float: right;
+  margin-top: 25px;
+  margin-right: 30px;
+  float: right;
 }
 
 /*顶栏 CSS 结束*/
 
 /*链接设为黑色*/
 a {
-    color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
 /* content 的链接鼠标变化*/
 .content a:hover {
-    color: rgb(94, 94, 94);
+  color: rgb(94, 94, 94);
 }
 
 .content a:active {
-    color: #a8a8a8;
+  color: #a8a8a8;
 }
 
 /*主内容*/
 .title {
-    text-align: center;
+  text-align: center;
 }
 
 .content {
-    margin-top: 80px;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 70px;
-    line-height: 1.7;
+  margin-top: 80px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 110px;
+  line-height: 1.7;
 }
 
 .content img {
-    width: 80%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 10%;
-    margin-right: 10%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 80%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .q {
-    border-left: 8px solid #8d8d8d;
-    background-color: #dfdfdf;
-    border-radius: 2px 0 0 2px;
-    padding: 10px;
+  border-left: 8px solid #8d8d8d;
+  background-color: #dfdfdf;
+  border-radius: 2px 0 0 2px;
+  padding: 10px;
 }
 
 h1,
@@ -76,25 +76,41 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: normal;
+  font-weight: normal;
 }
 
+/*主内容 CSS 结束*/
+
+/* 页脚 CSS 开始
+
+.footer {
+    margin-top: 100px;
+    margin-bottom: 80px;
+    text-align: center;
+  }
+  
+  .icon {
+    margin: 0 10px 0 10px;
+    width: 35px;
+  }
+  这里是曾经考虑的页脚导航，用两个 .svg 后来觉得和风格不符，故删
+   */
 
 @media screen and (max-width: 750px) {
-    .toplink {
-        float: none;
-        text-align: center;
-        margin-right: 0;
-    }
+  .toplink {
+    float: none;
+    text-align: center;
+    margin-right: 0;
+  }
 
-    .toptitle {
-        float: none;
-        text-align: center;
-        margin-left: 0;
-    }
+  .toptitle {
+    float: none;
+    text-align: center;
+    margin-left: 0;
+  }
 
-    .content {
-        margin-left: 9%;
-        margin-right: 9%;
-    }
+  .content {
+    margin-left: 9%;
+    margin-right: 9%;
+  }
 }
