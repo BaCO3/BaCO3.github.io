@@ -34,11 +34,15 @@ a {
 /* content 的链接鼠标变化*/
 .content a:hover {
   color: rgb(94, 94, 94);
+  text-decoration: rgb(94, 94, 94) wavy underline;
 }
 
+/* 简单粗暴做了两个一模一样的，借此来让触控设备也能有效果
 .content a:active {
-  color: #a8a8a8;
+  color: rgb(94, 94, 94);
+  text-decoration: rgb(94, 94, 94) wavy underline;
 }
+emmmmm……效果不好，删之 */
 
 /*主内容*/
 .content {
