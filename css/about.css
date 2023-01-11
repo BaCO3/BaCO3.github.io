@@ -98,6 +98,10 @@ article a:hover {
     border-radius: 4px 4px 4px 4px;
 }
 
+.mid {
+    text-align: center;
+}
+
 #clock {
     text-align: center;
 }
