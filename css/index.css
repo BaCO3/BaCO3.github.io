@@ -1,80 +1,89 @@
 @charset "UTF-8";
 
 body {
-  font-family: Georgia;
-  margin: 0;
+    color: rgba(0, 0, 0, 0.799);
+    background-color: rgba(232, 232, 232, 0.231);
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 100px;
 }
 
-/*顶栏 CSS 开始*/
-
-.toptitle {
-  margin-left: 20px;
-  float: left;
+.center {
+    margin-left: 5%;
+    width: 90%;
+    margin-right: 5%;
 }
 
-#toolman {
-  overflow: hidden; /*用 div 工具人清除浮动*/
-  margin-top: 3px;
-  margin-bottom: 80px;
+.title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-.toplink {
-  margin-top: 25px;
-  margin-right: 30px;
-  float: right;
+.title #light {
+    color: grey;
 }
 
-/*顶栏 CSS 结束*/
-
-/*主内容 CSS 开始*/
-.box {
-  /*开口朝右*/
-  margin: 40px 0% 40px 15%;
-  padding: 20px;
-  border-top-style: solid;
-  border-bottom-style: solid;
-  border-left-style: solid;
-  border-radius: 4px 0 0 4px;
-  line-height: 1.7;
+.title a {
+    margin-right: 20px;
+    font-size: 1.17em;
+    color: rgba(0, 0, 0, 0.799);
+    text-decoration: none;
 }
 
-/*主内容 CSS 结束*/
+.title a:hover {
+    text-decoration: underline;
+}
 
-/*页脚 CSS 开始*/
+article {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+article a {
+    font-size: 1.17em;
+    color: grey;
+    text-decoration: none;
+}
+
+article a:hover {
+    color: rgba(0, 0, 0, 0.799);
+    transition: color .1s cubic-bezier(.68,.07,.68,.53)
+}
 
 .footer {
-  margin-top: 100px;
-  margin-bottom: 80px;
-  text-align: center;
+    text-align: center;
+    margin-top: 50px;
 }
 
-.icon {
-  margin: 0 10px 0 10px;
-  width: 35px;
+.footer a {
+    margin-right: 20px;
+    font-size: 1.17em;
+    color: rgba(0, 0, 0, 0.799);
+    text-decoration: none;
 }
 
-/*页脚 CSS 结束*/
-
-/*$$$$$$$$$$$$$$$ 以下是一些零碎的 CSS $$$$$$$$$$$$$$$*/
-
-/*取消链接下划线
-a {
-text-decoration: none;
-}
-*/
-
-/*链接设为黑色*/
-a {
-  color: rgb(0, 0, 0);
+.footer a:hover {
+    text-decoration: underline;
 }
 
-/* main 的链接鼠标变化*/
-.main a:hover {
-  color: rgb(94, 94, 94);
+.footer #special {
+    margin-right: 0;
 }
 
-.main a:active {
-  color: #a8a8a8;
+.code {
+    /* font-family: 'Ubuntu Mono', monospace; */
+    font-size: 1em;
+    padding: 2px 4px;
+    background-color:rgba(224, 224, 224, 0.799);
+    border: 1px solid darkgray;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 900px) {
+    .main {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
 
 h1,
@@ -83,47 +92,5 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: normal;
-}
-
-/*响应式布局开始*/
-
-@media screen and (max-width: 750px) {
-  .box {
-    margin-left: 10%;
-  }
-
-  .toplink {
-    float: none;
-    text-align: center;
-    margin-right: 0;
-  }
-  .toptitle {
-    float: none;
-    text-align: center;
-    margin-left: 0;
-  }
-
-  .icon {
-    margin: 0 5px 0 5px;
-  }
-}
-
-/* 动画开始 */
-
-.box {
-  position: relative;
-  animation-name: animation;
-  animation-duration: 0.6s;
-  animation-iteration-count: 1;
-  animation-direction: alternate;
-}
-
-@keyframes animation {
-  from {
-    left: 200px;
-  }
-  to {
-    left: 0;
-  }
+    font-weight: normal;
 }
