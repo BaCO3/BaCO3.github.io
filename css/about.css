@@ -139,6 +139,14 @@ article a:hover {
         color: rgba(0, 0, 0, 0.868);
     }
 
+    .main .code a {
+        color: rgba(0, 0, 0, 0.868);
+    }
+
+    .main .code a:hover {
+        color: rgba(0, 0, 0, 0.968);
+    }
+
     .main a {
         color: rgb(103, 103, 103);
     }
