@@ -122,6 +122,36 @@ article a:hover {
     }
 }
 
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: rgba(0, 0, 0, 0.868);
+    }
+
+    .title a {
+        color: rgb(190, 190, 190);
+    }
+
+    .main {
+        color: rgb(190, 190, 190);
+    }
+
+    .code {
+        color: rgba(0, 0, 0, 0.868);
+    }
+
+    .main a {
+        color: rgb(103, 103, 103);
+    }
+
+    .main a:hover{
+        color: rgb(190, 190, 190);
+    }
+
+    .footer a {
+        color: rgb(190, 190, 190);
+    }
+}
+
 h1,
 h2,
 h3,

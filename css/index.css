@@ -86,6 +86,28 @@ article a:hover {
     }
 }
 
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: rgba(0, 0, 0, 0.868);
+    }
+
+    .title a {
+        color: rgb(190, 190, 190);
+    }
+
+    article a {
+        color: rgb(190, 190, 190);
+    }
+
+    article a:hover{
+        color: rgb(235, 235, 235);
+    }
+
+    .footer a {
+        color: rgb(190, 190, 190);
+    }
+}
+
 h1,
 h2,
 h3,
