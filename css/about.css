@@ -88,6 +88,10 @@ article a:hover {
     margin-bottom: 1em;
 }
 
+.main b {
+    font-weight: bolder;
+}
+
 .main img {
     margin-left: 10%;
     width: 80%;
